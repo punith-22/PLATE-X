@@ -13,7 +13,7 @@ function App() {
   const [cases, setCases] = useState([]);
   const [evidence, setEvidence] = useState([]);
   const [caseForm, setCaseForm] = useState({ title: "", registration: "", description: "" });
-  const [evidenceForm, setEvidenceForm] = useState({ case_id: "", filename: "", content: "", source: "manual", notes: "" });
+  const [evidenceForm, setEvidenceForm] = useState({ case_id: "", file: null, source: "upload", notes: "" });
   const [error, setError] = useState("");
   const [busy, setBusy] = useState(false);
 
