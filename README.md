@@ -86,6 +86,6 @@ For production deployment, replace SQLite with a managed database, put the API b
 - `GET /api/v1/auth/me`
 - `GET /api/v1/vehicles/{registration}`
 - `POST/GET /api/v1/cases`
-- `POST/GET /api/v1/evidence`
+- `POST/GET /api/v1/evidence`\n- `POST /api/v1/evidence/upload` (multipart, 25 MiB limit)
 - `GET /api/v1/audit` (admin)
 - `GET/POST /api/v1/users` (admin)
