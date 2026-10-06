@@ -38,3 +38,5 @@ h2 { margin:6px 0 0; font-size:24px; }
 footer { margin-top:auto; padding-top:35px; border-top:1px solid #151c26; display:flex; justify-content:space-between; color:#657184; font-size:11px; }
 @media (max-width:800px) { .section-grid { grid-template-columns:1fr; } .grid { grid-template-columns:repeat(2,1fr); } }
 @media (max-width:600px) { .shell { padding:20px; } .hero { margin-top:55px; } .search { flex-direction:column; } .search button { padding:14px; } footer { flex-direction:column; gap:8px; } }
+
+.auth-shell{min-height:100vh;display:grid;place-items:center;padding:24px;background:#070a0f}.login-card{width:min(440px,100%);padding:30px;border:1px solid #242e3d;background:#0c1119;border-radius:18px}.login-card h1{font-size:42px;margin:10px 0}.muted{color:#8793a5;line-height:1.6;font-size:13px}.top-actions{display:flex;align-items:center;gap:10px}.role{font-size:11px;color:#93a0b3;border:1px solid #273141;border-radius:999px;padding:8px 11px}.ghost{background:transparent;color:#c5cedb;border:1px solid #273141;padding:8px 12px}.ghost:hover{background:#141b25}button:disabled{opacity:.6;cursor:not-allowed}
